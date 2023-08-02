@@ -17,7 +17,7 @@ build:
 dependencies:
   repository: https://github.com/okteto/movies
   manifest: okteto.yaml
-  branch: main
+  branch: ${BRANCH_1}
   wait: true
 
 deploy:
