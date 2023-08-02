@@ -15,7 +15,7 @@ build:
     context: check
 
 dependencies:
-  repository: git@github.com:okteto/movies.git
+  repository: https://github.com/okteto/movies-frontend
   manifest: okteto.yaml
   branch: main
   wait: true
