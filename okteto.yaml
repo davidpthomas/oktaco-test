@@ -14,11 +14,11 @@ build:
   check:
     context: check
 
-dependencies:
-  repository: https://github.com/okteto/movies-frontend
-  manifest: okteto.yaml
-  branch: main
-  wait: true
+#dependencies:
+#  repository: https://github.com/okteto/movies-frontend
+#  manifest: okteto.yaml
+#  branch: main
+#  wait: true
 
 deploy:
   image: hashicorp/terraform:1.4
