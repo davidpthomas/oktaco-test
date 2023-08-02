@@ -15,7 +15,7 @@ build:
     context: check
 
 dependencies:
-  repository: https://github.com/okteto/movies-frontend
+  repository: https://github.com/okteto/movies
   manifest: okteto.yaml
   branch: main
   wait: true
@@ -23,6 +23,7 @@ dependencies:
 deploy:
   commands:
     - echo "You win Charlie"
+
 #deploy:
 #  image: hashicorp/terraform:1.4
 #  commands:
