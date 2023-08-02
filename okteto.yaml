@@ -14,6 +14,12 @@ build:
   check:
     context: check
 
+dependencies:
+  repository: git@github.com:okteto/movies.git
+  manifest: okteto.yaml
+  branch: main
+  wait: true
+
 deploy:
   image: hashicorp/terraform:1.4
   commands:
