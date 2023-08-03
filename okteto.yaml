@@ -9,5 +9,6 @@ icon: https://raw.githubusercontent.com/okteto/icons/main/oktaco.png
 deploy:
   commands:
 #    - echo "FBN: ${FOO_BRANCH_NAME}"
-    - echo "expcecting zork (got it!): ${FOO_BRANCH_NAME}"
+#    - echo "expcecting zork (got it!): ${FOO_BRANCH_NAME}"
+    - echo "branch name in var: ${FOO_BRANCH_NAME}"
     - echo "You win Charlie"
