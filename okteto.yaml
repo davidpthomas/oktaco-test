@@ -1,10 +1,10 @@
 icon: https://raw.githubusercontent.com/okteto/icons/main/oktaco.png
 
-dependencies:
-  repository: https://github.com/okteto/movies
-  manifest: okteto.yaml
-  branch: ${FOO_BRANCH_NAME}
-  wait: true
+#dependencies:
+#  repository: https://github.com/okteto/movies
+#  manifest: okteto.yaml
+#  branch: main
+#  wait: true
 
 deploy:
   commands:
