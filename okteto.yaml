@@ -8,4 +8,5 @@ dependencies:
 
 deploy:
   commands:
+    - echo "FBN: ${FOO_BRANCH_NAME}"
     - echo "You win Charlie"
